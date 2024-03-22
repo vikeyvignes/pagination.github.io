@@ -1,0 +1,47 @@
+body {
+  background: black;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.list {
+  border: 1px solid #fff;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.list h4 {
+  color: olivedrab;
+}
+.list p {
+  color: #9bffdf;
+}
+
+.pagination {
+  display: flex;
+  border: 1px solid #fff;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  color: #282c34;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 100%;
+}
+
+.active {
+  background: #f9ed67;
+  color: #ffffff;
+  border: 3px solid #fff;
+}
+.pagination button:hover {
+  background: #f9ed67;
+  cursor: pointer;
+}
